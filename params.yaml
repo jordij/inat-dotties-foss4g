@@ -1,9 +1,9 @@
 api:
-  has[]: geo
+  has[]:  geo
   taxon_id:  465614
-  nelat:  -36.919955770549464
+  nelat:  -36.929955770549464
   nelng:  174.57880483525793
-  swlat:  -36.99539988803848
+  swlat:  -36.97539988803848
   swlng:  174.36205374361003
   quality_grade:  research
   per_page:  100
@@ -13,5 +13,8 @@ map:
   center_lat:  -36.946508
   center_long:  174.466728
   basemap_url:  https://basemaps.linz.govt.nz/v1/tiles/aerial/EPSG:3857/{z}/{x}/{y}.webp?api=c01eprbb1zb2vhh8vrtkge76xaw
-  basemap_attr: © CC BY 4.0 LINZ - Auckland 0.075m Urban Aerial Photos (2017) &amp; others 2010-2020
+  basemap_attr: "&#64; CC BY 4.0 LINZ - Auckland 0.075m Urban Aerial Photos (2017) &amp; others 2010-2020"
+  basemap_name: Auckland 0.075m Urban Aerial Photos
   zoom: 14
+
+output_map:  output_map.html
